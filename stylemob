@@ -1,0 +1,154 @@
+
+
+nav ul{
+	display:none;
+}
+
+.haut{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.logo img{
+	width: 60%;
+
+}
+main .image:nth-child(1){
+display: block;
+width: 100%;
+margin:0;
+}
+
+.bx-controls-direction {
+	display: none;
+}
+.logo{
+		margin: 0 auto;
+
+}
+
+h1{
+	text-align: center;
+}
+
+.visible{
+	display: flex;
+}
+
+nav a:hover{
+	color: white;
+}
+
+.ham{
+		width: 50px;
+		height: 50px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+}
+
+	.ham.actif .un{
+		transform: translateY(9px) rotate(45deg); 
+	}
+
+	.ham.actif .trois{
+		transform: translateY(-9px) rotate(-45deg);
+	}
+	.ham.actif .deux{
+		opacity:0;
+	}
+
+nav ul{
+	justify-content: space-around;
+	background: #195ba3;
+	line-height: 65px;
+	box-shadow: 0 10px 10px rgba(0,0,0,0.8);
+	position: absolute;
+	width: 100%;
+	z-index: 2;
+	flex-direction:column ;
+
+}
+
+nav li{
+	padding-left: 10px;
+}
+
+a{
+	font-size: 
+}
+
+.line{
+		background: #222;
+		height: 3px;
+		width: 75%;
+		margin: 3px 0;
+		transition:all 0.3S;
+	}
+
+
+main .image{
+	display: none;
+}
+
+main .image:nth-child(1){
+	display: block;
+}
+
+
+footer{
+	background: #195ba3;
+	
+}
+
+footer ul{
+	display: block;
+	justify-content: space-around;
+	line-height:6vh;
+	text-align: center;
+
+}
+
+
+
+/*----------EAU----------*/
+
+.contenu{
+	display: block;
+	flex-direction: column;
+	flex-grow:;
+
+}
+
+.pages .utilities ul{
+	display: flex;
+	line-height: 6vh;
+	flex-direction: column;
+
+}
+.image {
+	width:100%;
+}
+.pages .contenu{
+	display: block;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+
+.pages p{
+	width:100%;
+	line-height: 180%;
+	text-align: center;
+}
+
+.pages .illustration{
+	max-width:90%;
+	margin: 0 auto;
+
+}
+
+
+
+
